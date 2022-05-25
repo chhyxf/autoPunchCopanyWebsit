@@ -15,7 +15,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    companyWebsite = "https://www.revival.net.cn/";
+    companyWebsite = "https://www.baidu.com/";
     progress = 0;
     view = new QWebView(this);
     TimerReTry = new QTimer(this);
